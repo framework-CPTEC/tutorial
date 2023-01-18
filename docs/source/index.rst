@@ -16,13 +16,16 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-teste
+examples/Example_lib.ipynb
+
 
 .. toctree::
 
    usage
    api
 
+
+teste2
 
 .. toctree::
    :maxdepth: 2
