@@ -6,4 +6,6 @@ dependencies:
   - ipykernel
   - pip
   - pip:
+    - ipykernel
     - nbsphinx
+    - sphinxcontrib-napoleon
