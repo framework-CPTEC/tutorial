@@ -23,7 +23,8 @@ examples/Example_lib.ipynb
 
    usage
    api
-
+   examples/Example_lib.ipynb
+   
 
 teste2
 
