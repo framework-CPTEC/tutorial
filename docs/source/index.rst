@@ -20,3 +20,11 @@ Contents
 
    usage
    api
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Examples:
+
+   examples/Example_lib.ipynb
+
