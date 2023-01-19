@@ -58,7 +58,11 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 - plotagem de área ou ponto
 - exportar em NetCDF ou CSV
 
-Janela de Recuperação de Dados - Escolher  data, campo/campos, nivel/nîveis e o numero de steps do Modelo Numérico.
+**Janela de Recuperação de Dados**
+
+.. note::
+
+  Escolher data, campo/campos, nivel/nîveis e o numero de steps do Modelo Numérico.
 
 .. warning::
 
@@ -69,7 +73,7 @@ Janela de Recuperação de Dados - Escolher  data, campo/campos, nivel/nîveis e
    :width: 70%
 
 
-Janela filtro Área
+**Janela filtro Área**
 
 |pic31| - |pic32| 
 
@@ -80,7 +84,7 @@ Janela filtro Área
    :width: 45%
 
 
-Janela filtro Ponto
+**Janela filtro Ponto**
 
 |pic33| - |pic34| 
 
@@ -90,4 +94,25 @@ Janela filtro Ponto
 .. |pic34| image:: _static/ex_3_4.png
    :width: 45%
 
+**Janela Plot**
+
+|pic35| - |pic36| 
+
+.. |pic35| image:: _static/ex_3_5.png
+   :width: 45%
+
+.. |pic36| image:: _static/ex_3_6.png
+   :width: 45%
+
+**Export NetCDF/CSV**
+
+|pic37| - |pic38| 
+
+.. |pic37| image:: _static/ex_3_7.png
+   :width: 45%
+
+.. |pic38| image:: _static/ex_3_8.png
+   :width: 45%
+
+Download :download:`Example_lib_Widgets.ipynb <examples/Example_lib_Widgets.ipynb>`.
 
