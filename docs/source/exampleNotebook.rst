@@ -62,7 +62,7 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 
 .. note::
 
-  Escolher data, campo/campos, nivel/nîveis e o numero de steps do Modelo Numérico.
+  Escolher data, campo/campos, nível/nîveis e o número de steps do Modelo Numérico.
 
 .. warning::
 
