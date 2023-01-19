@@ -3,15 +3,27 @@ Como Usar
 
 Modelos Disponiveis
 -------------------
-Modelo  - import
-BAM - import cptecmodel.CPTEC_BAM as BAM
-Eta - import cptecmodel.CPTEC_ETA as ETA
-GFS - import cptecmodel.CPTEC_GFS as GFS
-WRF - import cptecmodel.CPTEC_WRF as WRF
+
++-------------------------------------------------------------+
+| Modelo                 | import                             |
++========================+====================================+
+| BAM                    | import cptecmodel.CPTEC_BAM as BAM |
++-------------------------------------------------------------+
+| Eta                    | import cptecmodel.CPTEC_ETA as ETA |
++-------------------------------------------------------------+
+| GFS                    | import cptecmodel.CPTEC_GFS as GFS |
++-------------------------------------------------------------+
+| WRF                    | import cptecmodel.CPTEC_WRF as WRF |
++-------------------------------------------------------------+
 
 Outros Pacotes
-CPTEC_UTIL - Funções para uso nos diversos modelos
-CPTEC_Widgets - Funções para uso no sistema interativo
+
++--------------------+----------------------------------------+
+| CPTEC_UTIL         | Funções para uso nos diversos modelos  |
++-------------------------------------------------------------+
+| CPTEC_Widgets      | Funções para uso no sistema interativo |
++--------------------+----------------------------------------+
+
 
 Utilizando o BAM
 
