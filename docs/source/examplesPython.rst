@@ -127,4 +127,5 @@ Recuperar Dados e Plotar Figuras
 
   quit()
 
+
 Download :download:`plot_figure.py <examples/plot_figure.py>`.
