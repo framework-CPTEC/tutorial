@@ -15,6 +15,18 @@ Este exemplo demonstra varios usos da biblioteca, tais como:
 - plotar campo
 - salvar NetCDF
 
+
+|pic1| - |pic2| - |pic3|
+
+.. |pic1| image:: _static/filtro_area.png
+   :width: 35%
+
+.. |pic2| image:: _static/filtro_area.png
+   :width: 35%
+   
+.. |pic2| image:: _static/filtro_area.png
+   :width: 35%
+   
 Download :download:`Example_lib.ipynb <examples/Example_lib.ipynb>`.
 
 
