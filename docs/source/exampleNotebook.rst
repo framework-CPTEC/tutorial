@@ -71,6 +71,15 @@ Janela de Recuperação de Dados - Escolher  data, campo/campos, nivel/nîveis e
 
 
 
+Janela filtro Área
+
+|pic31| - |pic32| 
+
+.. |pic31| image:: _static/ex_3_1.png
+   :width: 45%
+
+.. |pic32| image:: _static/ex_3_2.png
+   :width: 45%
 
 
 
