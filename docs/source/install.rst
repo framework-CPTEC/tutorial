@@ -13,8 +13,8 @@ Instalação
 
 .. code-block:: console
 
-  conda install -c conda-forge matplotlib pycurl cfgrib netCDF4 pynio xarray dask esmpy scipy mpi4py xesmf
-
+  conda install -c conda-forge matplotlib pycurl cfgrib netCDF4 pynio xarray dask esmpy scipy mpi4py xesmf ipykernel
+  
 - Instalar Pacote
 
 **Via pip**
