@@ -15,8 +15,8 @@ Contents
 
 .. toctree::
 
+   install
    usage
-   api
    examples
    
 
