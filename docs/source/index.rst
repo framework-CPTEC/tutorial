@@ -18,6 +18,9 @@ Contents
    install
    usage
    examplesPython
+   exampleNotebook
+   interfaceInterativa
+   utilRegrid
    
 
 
