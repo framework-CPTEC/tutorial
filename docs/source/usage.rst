@@ -15,42 +15,38 @@ CPTEC_Widgets - Funções para uso no sistema interativo
 
 Utilizando o BAM
 
-# Import para os modelos disponiveis
-# CPTEC_BAM, CPTEC_WRF, CPTEC_ETA, CPTEC_GFS
+.. code-block:: console
 
-import cptecmodel.CPTEC_BAM as BAM
+  # Import para os modelos disponiveis
+  # CPTEC_BAM, CPTEC_WRF, CPTEC_ETA, CPTEC_GFS
+  import cptecmodel.CPTEC_BAM as BAM
 
-# Durante a inicialização do construtor informações sobre os dados são exibidas
-# Entre elas informações de variaveis, niveis e frequência disponiveis para consulta
+  # Durante a inicialização do construtor informações sobre os dados são exibidas
+  # Entre elas informações de variaveis, niveis e frequência disponiveis para consulta
 
-bam = BAM.model()
+  bam = BAM.model()
 
-# Data da IC
+  # Data da IC
+  date = '2023011700'
 
-date = '2023011700'
+  # Variaveis 
+  vars = ['t', 'u10m']
 
-# Variaveis 
+  # Niveis
+  levels = [1000, 850]
 
-vars = ['t', 'u10m']
+  # Steps = Numero de simulações futuras a partir da inicialização do modelo
+  steps = 1
 
-# Niveis
-
-levels = [1000, 850]
-
-# Steps = Numero de simulações futuras a partir da inicialização do modelo
-
-steps = 1
-
-# Utizando o método load
-
-f = bam.load(date=date, var=vars,level=levels, steps=steps)
+  # Utizando o método load
+  f = bam.load(date=date, var=vars,level=levels, steps=steps)
 
 Observações
 -----------
 
 Após a inicialização do Modelo Específico algumas configurações são plotadas.
 
-Ex.:
+Exemplo do BAM
 
 The Brazilian Global Atmospheric Model (TQ0666L064 / Hybrid)
 
@@ -64,7 +60,7 @@ Frequency: every 6 hours [0, 6, 12, 18,...,168].
 
 .. warning::
 
-  Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)
+  Usar essas informações da inicialização na definição dos valores das variáveis (date,vars,levels,steps)
 
 
 
