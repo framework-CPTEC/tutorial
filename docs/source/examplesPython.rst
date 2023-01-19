@@ -42,7 +42,9 @@ Recuperar Dados de Modelos Numéricos
 
   quit()
 
-
+ Download :download:`get_data_oper.py <examples/get_data_oper.py>`.
+ 
+ 
 Recuperar Dados e Salvar em NetCDF
 -----------------------------------
 .. code-block:: console
