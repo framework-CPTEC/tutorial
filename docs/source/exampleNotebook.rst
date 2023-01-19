@@ -116,7 +116,7 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 
 .. note::
 
-  Os arquivos NetCDF ou CSV são gerados no diretório corrente do .ipynb com o nome de output
+  O arquivo NetCDF ou CSV é gerado no diretório corrente do .ipynb com o nome de output
 
 Download :download:`Example_lib_Widgets.ipynb <examples/Example_lib_Widgets.ipynb>`.
 
