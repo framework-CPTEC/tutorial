@@ -1,7 +1,7 @@
 Como Usar
 =========
 
-Modelos Disponiveis
+Modelos Disponíveis
 -------------------
 
 .. list-table:: 
