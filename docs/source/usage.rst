@@ -17,25 +17,32 @@ Utilizando o BAM
 
 # Import para os modelos disponiveis
 # CPTEC_BAM, CPTEC_WRF, CPTEC_ETA, CPTEC_GFS
+
 import cptecmodel.CPTEC_BAM as BAM
 
 # Durante a inicialização do construtor informações sobre os dados são exibidas
 # Entre elas informações de variaveis, niveis e frequência disponiveis para consulta
+
 bam = BAM.model()
 
 # Data da IC
+
 date = '2023011700'
 
 # Variaveis 
+
 vars = ['t', 'u10m']
 
 # Niveis
+
 levels = [1000, 850]
 
 # Steps = Numero de simulações futuras a partir da inicialização do modelo
+
 steps = 1
 
 # Utizando o método load
+
 f = bam.load(date=date, var=vars,level=levels, steps=steps)
 
 Observações
@@ -55,8 +62,9 @@ levels (hPa): 1000 925 850 775 700 500 400 300 250 200 150 100 70 50 30 20 10 3.
 
 Frequency: every 6 hours [0, 6, 12, 18,...,168].
 
+.. warning::
 
-Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)
+  Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)
 
 
 
