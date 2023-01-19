@@ -17,7 +17,7 @@ Contents
 
    install
    usage
-   examples
+   examplesPython
    
 
 
