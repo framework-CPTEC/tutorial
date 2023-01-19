@@ -18,24 +18,35 @@ Este exemplo demonstra varios usos da biblioteca, tais como:
 - salvar NetCDF
 
 
-|pic1| - |pic2| - |pic3|
+|pic11| - |pic12| - |pic13|
 
-.. |pic1| image:: _static/ex_1_1.png
+.. |pic11| image:: _static/ex_1_1.png
    :width: 30%
 
-.. |pic2| image:: _static/ex_1_2.png
+.. |pic12| image:: _static/ex_1_2.png
    :width: 30%
    
-.. |pic3| image:: _static/ex_1_3.png
+.. |pic13| image:: _static/ex_1_3.png
    :width: 30%
    
 Download :download:`Example_lib.ipynb <examples/Example_lib.ipynb>`.
 
 
+Example_lib_regrid
+------------------
+
+Utilização da biblioteca UTIL para realizar o Regrid para colocar os modelos na mesma grade.
+
+|pic21| - |pic22| 
+
+.. |pic21| image:: _static/ex_2_1.png
+   :width: 45%
+
+.. |pic22| image:: _static/ex_2_2.png
+   :width: 45%
 
 
-
-
+Download :download:`Example_lib_regrid.ipynb <examples/Example_lib_regrid.ipynb>`.
 
 
 
