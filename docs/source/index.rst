@@ -1,7 +1,7 @@
 CPTEC-MODEL Documentação
 ========================
 
-**Framework-CPTEC** -  É um pacote in Python para a distribuição de dados brutos dos Modelos Numéricos de forma segmentada/particionada. Com esse pacote o usuário não necessita fazer o Download de todo o volume bruto o pacote auxilia a manipular somente a sua necessidade.
+**Framework-CPTEC** -  É um pacote in Python para a distribuição de dados brutos dos Modelos Numéricos de forma segmentada/particionada. Com esse pacote o usuário não necessita fazer o Download de todo o volume bruto. O pacote auxilia a manipular somente a sua necessidade.
 
 
 
