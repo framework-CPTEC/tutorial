@@ -15,5 +15,9 @@ Este exemplo demonstra varios usos da biblioteca, tais como:
 - plotar campo
 - salvar NetCDF
 
+Download :download:`Example_lib.ipynb <examples/Example_lib.ipynb>`.
+
+
+
 
 
