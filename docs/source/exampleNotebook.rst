@@ -5,6 +5,7 @@ Exemplo Example_lib
 Instalar biblioteca 
 
 .. code-block:: console
+
   pip install jupyter
 
 
