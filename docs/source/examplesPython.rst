@@ -74,6 +74,8 @@ Recuperar Dados e Salvar em NetCDF
 
   quit()
 
+Download :download:`get_netcdf.py <examples/get_netcdf.py>`.
+
 Recuperar Dados e Plotar Figuras
 ---------------------------------
 .. code-block:: console
@@ -125,3 +127,4 @@ Recuperar Dados e Plotar Figuras
 
   quit()
 
+Download :download:`plot_figure.py <examples/plot_figure.py>`.
