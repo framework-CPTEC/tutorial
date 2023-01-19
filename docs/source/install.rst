@@ -17,14 +17,13 @@ Instalação
 
 - Instalar Pacote
 
-  **Via pip**
+**Via pip**
   
 .. code-block:: console
 
   pip install -i https://test.pypi.org/simple/ cptec-model
   
-
-  **Via fonte**
+**Via fonte**
   
 .. code-block:: console
  
