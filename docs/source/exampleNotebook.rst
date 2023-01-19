@@ -1,6 +1,5 @@
-
-Exemplo Example_lib
-===================
+Exemplos Jupyter Notebook
+=========================
 
 Instalar biblioteca 
 
@@ -8,6 +7,8 @@ Instalar biblioteca
 
   pip install jupyter
 
+Example_lib
+-----------
 
 Este exemplo demonstra varios usos da biblioteca, tais como:
 
@@ -29,6 +30,15 @@ Este exemplo demonstra varios usos da biblioteca, tais como:
    :width: 30%
    
 Download :download:`Example_lib.ipynb <examples/Example_lib.ipynb>`.
+
+
+
+
+
+
+
+
+
 
 
 
