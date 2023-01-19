@@ -58,8 +58,13 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 - plotagem de área ou ponto
 - exportar em NetCDF ou CSV
 
-Janela de Recuperação de Dados - Escolher a data desejada, o campo, os nîveis e os steps do Modelo Numérico.
+Janela de Recuperação de Dados - Escolher  data, campo/campos, nivel/nîveis e o numero de steps do Modelo Numérico.
 
+.. warning::
+
+  O maior número de escolhas afeta o tempo de espera do pedido.
+  
+  
 .. image:: _static/pedido.png
    :width: 70%
 
