@@ -45,80 +45,82 @@ Recuperar Dados de Modelos Numéricos
 
 Recuperar Dados e Salvar em NetCDF
 -----------------------------------
+.. code-block:: console
 
-# Importa a ferramenta
-import CPTEC_WRF as WRF
+  # Importa a ferramenta
+  import CPTEC_WRF as WRF
 
-# Inicializa o construtor
-wrf = WRF.model()
+  # Inicializa o construtor
+  wrf = WRF.model()
 
-# Data Condição Inicial (IC)
-date = '2022111800'
+  # Data Condição Inicial (IC)
+  date = '2022111800'
 
-# variaveis
-vars = ['t', 'precip']
+  # variaveis
+  vars = ['t', 'precip']
 
-# Quantos passos previstos após inicialização do modelo
-steps = 5
+  # Quantos passos previstos após inicialização do modelo
+  steps = 5
 
-# Niveis desejados (aplicado apenas as variaveis em niveis)
-levels = [1000, 850]
+  # Niveis desejados (aplicado apenas as variaveis em niveis)
+  levels = [1000, 850]
 
-# Requisição dos dados
-f = wrf.load(date=date, var=vars, level=levels, steps=steps)
+  # Requisição dos dados
+  f = wrf.load(date=date, var=vars, level=levels, steps=steps)
 
-# Salva arquivo com os dados solicitados
-f.to_netcdf('wrf_2022111800.nc')
+  # Salva arquivo com os dados solicitados
+  f.to_netcdf('wrf_2022111800.nc')
 
-quit()
+  quit()
 
 Recuperar Dados e Plotar Figuras
 ---------------------------------
+.. code-block:: console
 
-# Importa a ferramenta
-import CPTEC_ETA as ETA
-import matplotlib.pyplot as plt
+  # Importa a ferramenta
+  import CPTEC_ETA as ETA
+  import matplotlib.pyplot as plt
 
-# Inicializa o construtor
-eta = ETA.model()
+  # Inicializa o construtor
+  eta = ETA.model()
 
-# Data condição inicial (IC)
-date = '2022111800'
+  # Data condição inicial (IC)
+  date = '2022111800'
 
-# variaveis
-vars = ['u10m']
+  # variaveis
+  vars = ['u10m']
 
-# Quantos passos previstos após inicialização do modelo
-steps = 5
+  # Quantos passos previstos após inicialização do modelo
+  steps = 5
 
-# O resultado da requisição dos dados são armazenados na variavel f
-f = eta.load(date=date, var=vars, steps=steps)
+  # O resultado da requisição dos dados são armazenados na variavel f
+  f = eta.load(date=date, var=vars, steps=steps)
 
-# Para verificar as datas disponiveis, latitudes, longitudes e niveis quando presente use o exemplo abaixo
-print('Horarios disponiveis:', f.time.values, '\n')
-print('Latitude :', f.latitude.values, '\n')
-print('Longitude:', f.longitude.values, '\n')
-# print('Level:', f.level)
+  # Para verificar as datas disponiveis, latitudes, longitudes e niveis quando presente use o exemplo abaixo
+  print('Horarios disponiveis:', f.time.values, '\n')
+  print('Latitude :', f.latitude.values, '\n')
+  print('Longitude:', f.longitude.values, '\n')
+  # print('Level:', f.level)
 
-# Plot simples para verificação dos campos
-# selecionando apenas por tempo
+  # Plot simples para verificação dos campos
+  # selecionando apenas por tempo
 
-fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(7, 7))
-f.sel(time='20221118T01:00').u10m.plot.pcolormesh(
+  fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(7, 7))
+  f.sel(time='20221118T01:00').u10m.plot.pcolormesh(
           ax=axes, robust=True, add_colorbar=True, add_labels=True)
-axes.set_title('Eta 2022-11-18T01:00 U10M', ha='center')
-plt.show()
+  axes.set_title('Eta 2022-11-18T01:00 U10M', ha='center')
+  plt.show()
 
-# Plot simples dando zoom em area
-# selecionando apenas por tempo
-fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(7, 7))
+  # Plot simples dando zoom em area
+  # selecionando apenas por tempo
+  fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(7, 7))
 
-f.sel(time='20221118T01:00', latitude=slice(-30,5), longitude=slice(280, 300)).u10m.plot.pcolormesh(
+  f.sel(time='20221118T01:00', latitude=slice(-30,5), longitude=slice(280, 300)).u10m.plot.pcolormesh(
           ax=axes, robust=True, add_colorbar=True, add_labels=True)
 
-axes.set_title('Eta 2022-11-18T01:00 U10M', ha='center')
+  axes.set_title('Eta 2022-11-18T01:00 U10M', ha='center')
 
-plt.show()
+  plt.show()
 
-quit()
+  quit()
 
