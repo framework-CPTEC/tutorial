@@ -49,6 +49,21 @@ Utilização da biblioteca UTIL para realizar o Regrid para colocar os modelos n
 Download :download:`Example_lib_regrid.ipynb <examples/Example_lib_regrid.ipynb>`.
 
 
+Example_lib_Widgets
+-------------------
+
+Utilizando Widgets para o desenvolvimento de uma Interface para:
+- recuperação de dados
+- filtagem de área ou ponto
+- plotagem de área ou ponto
+- exportar em NetCDF ou CSV
+
+Janela de Recuperação de Dados - Escolher a data desejada, o campo, os nîveis e os steps do Modelo Numérico.
+
+.. image:: _static/pedido.png
+   :width: 70%
+
+
 
 
 
