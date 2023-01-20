@@ -1,5 +1,5 @@
 # Importa a ferramenta
-import CPTEC_ETA as ETA
+import cptecmodel.CPTEC_ETA as ETA
 import matplotlib.pyplot as plt
 
 # Inicializa o construtor
