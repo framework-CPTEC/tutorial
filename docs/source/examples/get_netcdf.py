@@ -1,5 +1,5 @@
 # Importa a ferramenta
-import CPTEC_WRF as WRF
+import cptecmodel.CPTEC_WRF as WRF
 
 # Inicializa o construtor
 wrf = WRF.model()
