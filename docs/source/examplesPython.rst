@@ -9,8 +9,8 @@ Recuperar Dados de Modelos Numéricos
 .. code-block:: console
 
   # Importa a ferramenta
-  import CPTEC_BAM as BAM
-
+  import cptecmodel.CPTEC_BAM as BAM
+  
   # Inicializa o construtor
   bam = BAM.model()
 
@@ -49,7 +49,7 @@ Recuperar Dados e Salvar em NetCDF
 .. code-block:: console
 
   # Importa a ferramenta
-  import CPTEC_WRF as WRF
+  import cptecmodel.CPTEC_WRF as WRF
 
   # Inicializa o construtor
   wrf = WRF.model()
@@ -81,7 +81,7 @@ Recuperar Dados e Plotar Figuras
 .. code-block:: console
 
   # Importa a ferramenta
-  import CPTEC_ETA as ETA
+  import cptecmodel.CPTEC_ETA as ETA
   import matplotlib.pyplot as plt
 
   # Inicializa o construtor
