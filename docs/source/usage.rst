@@ -48,10 +48,10 @@ Utilizando o BAM
   date = '2023011700'
 
   # Variaveis 
-  vars = ['t', 'u10m']
+  vars = ['t']
 
   # Niveis
-  levels = [1000, 850]
+  levels = [1000]
 
   # Steps = Numero de simulações futuras a partir da inicialização do modelo
   steps = 1
