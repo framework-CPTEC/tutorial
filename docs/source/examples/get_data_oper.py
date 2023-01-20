@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Importa a ferramenta
-import CPTEC_BAM as BAM
+import cptecmodel.CPTEC_BAM as BAM
 
 # Inicializa o construtor
 bam = BAM.model()
