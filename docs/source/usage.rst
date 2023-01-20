@@ -58,6 +58,9 @@ Utilizando o BAM
 
   # Utizando o método load
   f = bam.load(date=date, var=vars,level=levels, steps=steps)
+  
+  # Imprimir os valores recuperados
+  print(f)
 
 Observações
 -----------
