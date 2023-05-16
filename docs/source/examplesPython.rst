@@ -6,6 +6,8 @@ Exemplos Python
   
 .. note::
 
+  **Definição de Steps**
+  
   steps = **<int>**
   
   Define o número de steps que serão pedidos
