@@ -32,6 +32,26 @@ Utilizando o BAM
 
 .. warning::
   Alterar a data para os valores exibidos na inicialização
+  
+.. note::
+
+  **Definição de Steps**
+  
+  steps = **<int>**
+  
+  Define o número de steps que serão pedidos
+  
+  Ex. steps = ``6``
+  
+  O pedido será os steps ``0,1,2,3,4,5,6``
+  
+  steps = **<list>**
+  
+  Define os steps que serão pedidos
+  
+  Ex. steps =  ``[0,2,4,6]``
+  
+  O pedido será os steps específicos pedidos ``0,2,4,6``
 
 .. code-block:: console
 
