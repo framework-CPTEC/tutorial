@@ -18,6 +18,8 @@ Modelos Disponíveis
      - import cptecmodel.CPTEC_GFS as GFS
    * - WRF
      - import cptecmodel.CPTEC_WRF as WRF
+   * - BRAMS
+     - import cptecmodel.CPTEC_BRAMS as BRAMS
 
 .. list-table::  Outros Pacotes
    :widths: 30 70
