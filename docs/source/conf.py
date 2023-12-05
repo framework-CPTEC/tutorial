@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
-
-# -- Project information
+import os
+import sys
+import sphinx_rtd_theme# -- Project information
 
 project = 'cptec-model'
 copyright = '2023, Framework CPTEC'
