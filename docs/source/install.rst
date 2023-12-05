@@ -15,7 +15,7 @@ Instalação
   
 .. code-block:: console
 
-  pip install -i https://test.pypi.org/simple/ cptec-model
+  pip install cptec-model
   
 **Via fonte**
 
