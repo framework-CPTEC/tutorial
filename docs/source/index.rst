@@ -13,15 +13,10 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: 🚀 Tutorials
-
    /install
    /usage
    /examplesPython
-   /interfaceInterativa
-   /utilRegrid
+   /exampleNotebook
 
    
 
