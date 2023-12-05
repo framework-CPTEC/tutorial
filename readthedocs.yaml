@@ -8,9 +8,9 @@ sphinx:
   configuration: docs/source/conf.py
   fail_on_warning: true
 
-#python:
-#  install:
-#    - requirements: requirements.txt
+python:
+  install:
+    - requirements: requirements.txt
 
 build:
   os: ubuntu-22.04
