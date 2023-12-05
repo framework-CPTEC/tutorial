@@ -2,6 +2,6 @@ API
 ===
 
 .. autosummary::
-   :toctree: generated
-
+   :nosignatures:
+   :toctree: generated/
 
