@@ -9,8 +9,6 @@ Instalação
 
   conda activate cptec
 
-- Instalar Pacote
-
 **Via pip**
   
 .. code-block:: console
@@ -24,7 +22,9 @@ Instalação
 .. code-block:: console
 
   conda install -c conda-forge matplotlib pycurl cfgrib netCDF4 pynio xarray dask esmpy scipy mpi4py xesmf ipykernel
-    
+
+- Instalar Pacote cptec-model
+
 .. code-block:: console
  
   git clone https://github.com/framework-CPTEC/CPTEC-user.git
