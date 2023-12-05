@@ -12,14 +12,17 @@ CPTEC-MODEL Documentação
 Contents
 --------
 
-
 .. toctree::
-   install
-   usage
-   examplesPython
-   exampleNotebook
-   interfaceInterativa
-   utilRegrid
+   :maxdepth: 2
+   :hidden:
+   :caption: 🚀 Tutorials
+
+   /install
+   /usage
+   /examplesPython
+   /interfaceInterativa
+   /utilRegrid
+
    
 
 
