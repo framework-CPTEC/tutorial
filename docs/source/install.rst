@@ -13,13 +13,14 @@ Instalação
   
 .. code-block:: console
 
-  pip install cptec-model
+  conda install -c conda-forge  cptec-model
+  
 
 **Via pip**
   
 .. code-block:: console
 
-  conda install -c conda-forge  cptec-model
+  pip install cptec-model
   
 **Via fonte**
 
