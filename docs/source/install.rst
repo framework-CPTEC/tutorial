@@ -97,7 +97,8 @@ Ação
   1 - pip uninstall pycurl 
   2 - conda install -c conda-forge  pycurl   
 
-Caso o erro persiste ver maiores detalhes em:
+
+Caso o erro persista, verifique o link para maiores detalhes:
 `<http://pycurl.io/docs/7.21.5/install.html#ssl>`_.
 
 
