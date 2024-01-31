@@ -40,7 +40,8 @@ Instalação
 
   python setup.py install
 
-**Erros Encontrados**
+Erros Encontrados
+=================
 
 - EcCodes
 
