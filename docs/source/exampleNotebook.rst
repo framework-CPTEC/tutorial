@@ -143,11 +143,9 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 
 Download :download:`Example_lib_Widgets.ipynb <examples/Example_lib_Widgets.ipynb>`.
 
+ 
 Módulo Stats 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Example_lib_Stats
------------------
+------------
 
 O módulo calcula os dados utilizando abordagens padrão e ponderada.
 
@@ -160,7 +158,7 @@ O módulo calcula os dados utilizando abordagens padrão e ponderada.
 
 
 Abordagem Ponderada
--------------------
+~~~~~~~~~~~~~~~~~~~~
 
 No cálculo ponderado, a área de cada célula da grade diminui à medida que se aproxima dos polos. Para esse tipo de grade, o cosseno da latitude pode ser usado como uma estimativa da área da célula.
 
