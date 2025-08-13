@@ -639,7 +639,10 @@ plt.xticks(rotation=30, ha='right',)
 plt.tight_layout()
 ```
 
-![png](output_8_0.png)
+![png](_static/output_8_0.png)
+
+.. image:: _static/output_8_0.png
+   :width: 70%
     
 
 
