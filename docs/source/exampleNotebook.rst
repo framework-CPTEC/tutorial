@@ -143,6 +143,8 @@ Utilizando Widgets para o desenvolvimento de uma Interface para:
 
 Download :download:`Example_lib_Widgets.ipynb <examples/Example_lib_Widgets.ipynb>`.
 
+Módulo Stats 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example_lib_Stats
 -----------------
