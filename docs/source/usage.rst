@@ -87,24 +87,10 @@ Utilizando o BAM
 Variáveis e Níveis
 ------------------
 
-Após a inicalizacao do Modelo específico.
+Uma vez que o modelo específico é inicializado, suas informações são visualizadas.
 
->>> import cptecmodel.CPTEC_BAM as BAM
->>> bam = BAM.model()
-
-#### The Brazilian Global Atmospheric Model (TQ0666L064 / Hybrid) #####
-
-Forecast data available for reading between 20250803 and 20250813.
-
-Surface variables: ['lsmk', 'tsfc', 'dstp', 'ussl', 'uzrs', 'tp2m', 'dp2m', 'fdlu', 'u10m', 'v10m', 't2m', 'slp', 'psfc', 'terrain', 'sbcape', 'sbcin', 'pw', 'precip', 'cssf', 'clsf', 'role', 'tmmt', 'prcv', 'neve', 'usst', 'vsst', 'cbnv', 'olis', 'oles', 'ocis', 'oces', 'roce', 'ocas', 'tgsc', 'dvsh', 'fdlt', 'hmfc', 'vmfl', 'vadv', 'nhcm', 'lglh', 'mkmt', 'fzrh', 'fzht', 'tsps', 'vdcc', 'pitp', 'umrs'].
-
-Level variables:   ['vort', 'potv', 'umes', 'amsl', 'amdl', 'bslh', 't', 'u', 'v', 'rh', 'g', 'omega', 'fcor'].
-
-levels (hPa): ['1000', '925', '850', '775', '700', '500', '400', '300', '250', '200', '150', '100', '70', '50', '30', '20', '10', '3'].
-
-Frequency: every 6 hours [0, 6, 12, 18,...,168].
-
-Os detalhes do Modelo são visualizados:
+>>> import cptecmodel.CPTEC_ETA as ETA
+>>> eta = ETA.model()
 
 #### Regional (ams_08km) #####
 
