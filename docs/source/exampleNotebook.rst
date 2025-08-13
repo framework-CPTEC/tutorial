@@ -149,10 +149,26 @@ Example_lib_Stats
 
 O módulo calcula os dados utilizando abordagens padrão e ponderada.
 
+.. code-block:: console
+
+  # Import the statistics module from the cptecmodel package
+  import cptecmodel.Stats as st
+
+  st.StatsUnweighted(f,'t2m').calculate()
+
+
 Abordagem Ponderada
 -------------------
 
 No cálculo ponderado, a área de cada célula da grade diminui à medida que se aproxima dos polos. Para esse tipo de grade, o cosseno da latitude pode ser usado como uma estimativa da área da célula.
+
+.. code-block:: console
+
+  # Import the statistics module from the cptecmodel package
+  import cptecmodel.Stats as st
+
+  st.StatsWeighted(f,'t2m').calculate()
+
 
 Por que usar o cosseno da latitude?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
